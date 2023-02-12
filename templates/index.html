@@ -1,0 +1,40 @@
+<html>
+<head>
+
+
+</head>
+
+<body>
+
+<form action="/predict" method="POST">
+    <h1> AAPKA BOOKING STATUS BATA RAHA HU </h1>
+
+    <label> no_of_adults: </label> <input type="number" name = "no_of_adults"> <br> <br>
+    <label> no_of_children: </label> <input type="number" name = "no_of_children"> <br> <br>
+    <label> no_of_weekend_nights: </label> <input type="number" name = "no_of_weekend_nights"> <br> <br>
+    <label> no_of_week_nights: </label> <input type="number" name = "no_of_week_nights"> <br> <br>
+    <label> type_of_meal_plan: </label> <input type="number" name = "type_of_meal_plan"> <br> <br>
+    <label> required_car_parking_space: </label> <input type="number" name = "required_car_parking_space"> <br> <br>
+    <label> room_type_reserved: </label> <input type="text" name = "room"> <br> <br>
+    <label> lead_time: </label> <input type="number" name = "lead_time"> <br> <br>
+    <label> market_segment_type: </label> <input type="text" name = "market"> <br> <br>
+    <label> repeated_guest: </label> <input type="number" name = "repeated_guest"> <br> <br>
+    <label> no_of_previous_cancellations: </label> <input type="number" name = "no_of_previous_cancellations"> <br> <br>
+    <label> no_of_previous_bookings_not_canceled: </label> <input type="number" name = "no_of_previous_bookings_not_canceled"> <br> <br>
+    <label> avg_price_per_room: </label> <input type="number" name = "avg_price_per_room"> <br> <br>
+    <label> no_of_special_requests: </label> <input type="number" name = "no_of_special_requests"> <br> <br>
+    <!-- <label> overall_people: </label> <input type="number" name = "overall_people"> <br> <br> -->
+    <label> average_price_per_room_person: </label> <input type="number" name = "average_price_per_room_person"> <br> <br>
+    <label> overall_nights: </label> <input type="number" name = "overall_nights"> <br> <br>
+    <label> overall_price: </label> <input type="number" name = "overall_price"> <br> <br>
+
+
+
+    <input type="submit" value="PREDICT"> 
+
+</form>
+{{HTML_Output}}
+
+</body>
+
+</html>
